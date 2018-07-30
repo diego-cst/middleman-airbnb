@@ -1,0 +1,13 @@
+<h2 class="text-center">Two guys below here</h2>
+
+<div class="wrapper">
+  <div class="team_content">
+    <% data.students.each do |student| %>
+      <ul class="list-unstyled">
+        <li><%= image_tag "#{student.name.downcase}.jpg", class: "avatar-large team_avatar-xl" %></li>
+        <li><h2><%= student.name %></h2></li>
+        <li><p><%= student.username %></p></li>
+      </ul>
+    <% end %>
+  </div>
+</div>
