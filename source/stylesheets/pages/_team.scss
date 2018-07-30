@@ -3,19 +3,26 @@
   justify-content: space-around;
   text-align: center;
   width: 500px;
+  // color: black;
+  ul {
+    margin: 20px;
+  }
+  h2 {
+    color: darkblue;
+  }
+  p {
+    color: $blue;
+  }
 }
 .team_avatar-xl {
   height: 200px;
   width: 200px;
-}
-ul {
-  margin: 20px;
 }
 .wrapper {
   display: flex;
   justify-content: space-around;
   margin: 50px 0;
 }
-p {
-  color: grey;
+.team-h2 {
+  color: $blue;
 }
